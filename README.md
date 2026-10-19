@@ -20,7 +20,7 @@ Developed and maintained by **[Harun Sekmen](https://github.com/harunsekmen)**.
 > - **Guaranteed 95+ Core Web Vitals**: Zero Cumulative Layout Shift (CLS) and sub-second load times.
 > - **Turnkey Delivery in 5 Days**: Complete staging preview, testing, and deployment.
 > 
-> 📩 **Request a Project Quote**: [Hire Harun on Upwork](https://www.upwork.com/freelancers/~01a7a8b58043e6e6d9) | Direct Email: `sekhar38@gmail.com`
+> 📩 **Request a Project Quote**: [Hire Harun on Upwork](https://www.upwork.com/freelancers/~01a7a8b58043e6e6d9) | Direct Email: `sekmenwp@gmail.com`
 
 ---
 
