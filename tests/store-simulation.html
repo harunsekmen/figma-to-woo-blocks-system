@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AURA PRO — Modular Figma-to-WooCommerce Landing Page Design System</title>
+  <link rel="stylesheet" href="../assets/css/figma-blocks.css">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #09090b;
+    }
+    .header-bar {
+      background: #ffffff;
+      border-bottom: 1px solid #e4e4e7;
+      padding: 18px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .brand-logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .figma-tag {
+      font-size: 11px;
+      background: #a855f7;
+      color: #ffffff;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .page-container {
+      max-width: 1140px;
+      margin: 48px auto;
+      padding: 0 24px;
+    }
+    .section-header {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 48px auto;
+    }
+    .section-header h2 {
+      font-size: 32px;
+      font-weight: 800;
+      margin: 0 0 12px 0;
+      letter-spacing: -0.5px;
+    }
+    .section-header p {
+      font-size: 15px;
+      color: #71717a;
+      margin: 0;
+    }
+    .blocks-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+      margin-bottom: 64px;
+    }
+    .block-card {
+      background: #ffffff;
+      border: 1px solid #e4e4e7;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+    .pill-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #7f54b3;
+      background: #fbf7ff;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/figma-blocks.js"></script>
+</head>
+<body>
+  <header class="header-bar">
+    <div class="brand-logo">
+      <span>AURA ACOUSTICS</span>
+      <span class="figma-tag">FIGMA AUTO-LAYOUT NATIVE</span>
+    </div>
+    <div style="font-size: 13px; color: #71717a; font-weight: 500;">
+      100% Pixel Accuracy &bull; Zero PageBuilder Bloat
+    </div>
+  </header>
+
+  <main class="page-container">
+    <div class="section-header">
+      <h2>High-Converting Block Showcase</h2>
+      <p>Modular e-commerce sections built with WordPress Gutenberg native blocks matching a modern Figma UI component kit.</p>
+    </div>
+
+    <div class="blocks-grid">
+      <!-- Block 1: Competitor Matrix Block -->
+      <div class="block-card">
+        <span class="pill-badge">BLOCK #04 &bull; COMPARISON MATRIX</span>
+        <h3 style="margin: 0 0 16px 0; font-size: 18px;">Why Industry Leaders Choose Aura</h3>
+        <table class="ftw-matrix-table">
+          <thead>
+            <tr>
+              <th>Feature Spec</th>
+              <th class="ftw-highlight">Aura Pro</th>
+              <th>Generic</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Active Noise Cancellation</td>
+              <td class="ftw-highlight">✓ 48dB Hybrid</td>
+              <td>✕ 25dB Basic</td>
+            </tr>
+            <tr>
+              <td>Battery Playback Time</td>
+              <td class="ftw-highlight">✓ 42 Hours</td>
+              <td>18 Hours</td>
+            </tr>
+            <tr>
+              <td>Custom Beryllium Drivers</td>
+              <td class="ftw-highlight">✓ Included</td>
+              <td>✕ Standard</td>
+            </tr>
+            <tr>
+              <td>Fast Wireless Qi Charging</td>
+              <td class="ftw-highlight">✓ Included</td>
+              <td>✕ None</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Block 2: Interactive FAQ Accordion Block -->
+      <div class="block-card">
+        <span class="pill-badge">BLOCK #08 &bull; ZERO-CLS ACCORDION</span>
+        <h3 style="margin: 0 0 16px 0; font-size: 18px;">Frequently Asked Questions</h3>
+        
+        <div class="ftw-accordion-item is-active">
+          <div class="ftw-accordion-header">
+            <span>What is included in the manufacturer warranty?</span>
+            <span class="ftw-accordion-icon">+</span>
+          </div>
+          <div class="ftw-accordion-content" style="display: block;">
+            Every Aura Pro comes with an unconditional 2-year replacement warranty covering acoustic drivers, battery degradation, and hardware integrity with free roundtrip shipping.
+          </div>
+        </div>
+
+        <div class="ftw-accordion-item">
+          <div class="ftw-accordion-header">
+            <span>Can I pair simultaneously with Mac and iPhone?</span>
+            <span class="ftw-accordion-icon">+</span>
+          </div>
+          <div class="ftw-accordion-content">
+            Yes, multipoint Bluetooth 5.3 allows instant zero-latency switching across any two devices simultaneously.
+          </div>
+        </div>
+
+        <div class="ftw-accordion-item">
+          <div class="ftw-accordion-header">
+            <span>What is your risk-free trial return policy?</span>
+            <span class="ftw-accordion-icon">+</span>
+          </div>
+          <div class="ftw-accordion-content">
+            Test Aura in your daily routine for 30 days. If the acoustic profile does not surpass your current headphones, return for a 100% full refund.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+{
+  "name": "harunsekmen/figma-to-woo-blocks-system",
+  "description": "Modular e-commerce Gutenberg block system engineered to convert high-fidelity Figma UI designs into pixel-perfect WooCommerce landing pages.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Harun Sekmen",
+      "homepage": "https://github.com/harunsekmen"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "FigmaToWoo\\": "includes/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
+

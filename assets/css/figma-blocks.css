@@ -1,0 +1,83 @@
+/**
+ * FigmaToWoo Modern Block Design System CSS
+ */
+
+:root {
+  --ftw-primary: #18181b;
+  --ftw-accent: #7f54b3;
+  --ftw-border: #e4e4e7;
+  --ftw-bg-subtle: #f4f4f5;
+  --ftw-radius: 12px;
+}
+
+/* Accordion Component */
+.ftw-accordion-item {
+  border: 1px solid var(--ftw-border);
+  border-radius: var(--ftw-radius);
+  margin-bottom: 12px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.ftw-accordion-item.is-active {
+  border-color: var(--ftw-accent);
+}
+
+.ftw-accordion-header {
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  color: #09090b;
+}
+
+.ftw-accordion-icon {
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.ftw-accordion-item.is-active .ftw-accordion-icon {
+  transform: rotate(45deg);
+}
+
+.ftw-accordion-content {
+  display: none;
+  padding: 0 24px 20px 24px;
+  font-size: 14px;
+  color: #52525b;
+  line-height: 1.6;
+}
+
+/* Comparison Matrix */
+.ftw-matrix-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--ftw-border);
+  border-radius: var(--ftw-radius);
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.ftw-matrix-table th, .ftw-matrix-table td {
+  padding: 16px 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--ftw-border);
+  font-size: 14px;
+}
+
+.ftw-matrix-table th:first-child, .ftw-matrix-table td:first-child {
+  text-align: left;
+  font-weight: 600;
+}
+
+.ftw-matrix-table th.ftw-highlight, .ftw-matrix-table td.ftw-highlight {
+  background: #fbf7ff;
+  color: var(--ftw-accent);
+  font-weight: 700;
+}
+
