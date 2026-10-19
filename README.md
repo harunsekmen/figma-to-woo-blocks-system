@@ -1,129 +1,80 @@
-# 🎨 FigmaToWoo: Conversion Block Design System
+# 🎨 FigmaToWoo · High-Converting Block Design System
 
-[![WooCommerce HPOS Compatible](https://img.shields.io/badge/WooCommerce-HPOS%20Ready-7f54b3.svg)](https://github.com/harunsekmen/figma-to-woo-blocks-system)
-[![Figma Fidelity](https://img.shields.io/badge/Figma-100%25%20Pixel%20Accuracy-f24e1e.svg)](https://github.com/harunsekmen/figma-to-woo-blocks-system)
+[![WooCommerce HPOS Ready](https://img.shields.io/badge/WooCommerce-HPOS%20Ready-7f54b3.svg)](https://github.com/harunsekmen/figma-to-woo-blocks-system)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://github.com/harunsekmen/figma-to-woo-blocks-system/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/harunsekmen/figma-to-woo-blocks-system/actions)
+[![Gutenberg Native](https://img.shields.io/badge/WordPress-Gutenberg%20Native-21759b.svg)](https://github.com/harunsekmen/figma-to-woo-blocks-system)
 
-> A modular e-commerce Gutenberg block system engineered to convert high-fidelity Figma UI designs into pixel-perfect, sub-second WooCommerce landing pages. Zero bloated page builders, zero layout shift (0.00 CLS).
+> A modular e-commerce block system designed to translate custom Figma store designs into fast, mobile-responsive WooCommerce landing pages without heavy page builders.
 
-Developed and maintained by **[Harun Sekmen](https://github.com/harunsekmen)**.
+Developed and maintained by **[Harun Sekmen](https://github.com/harunsekmen)** — E-Commerce Systems Engineer & WooCommerce Developer.
 
----
-
-## 🚀 Have a Custom Figma Design Ready to Build?
-> ### **Pixel-Perfect Figma-to-WooCommerce Conversion by Harun Sekmen**
-> 
-> If you have an e-commerce design in Figma and need an expert engineer to translate it into a blazing-fast, mobile-responsive WooCommerce storefront:
-> - **100% Visual Fidelity**: Exact typography scales, spacing tokens, and micro-interactions preserved.
-> - **Native Gutenberg Implementation**: Clean modular blocks without sluggish Elementor/Divi dependencies.
-> - **Guaranteed 95+ Core Web Vitals**: Zero Cumulative Layout Shift (CLS) and sub-second load times.
-> - **Turnkey Delivery in 5 Days**: Complete staging preview, testing, and deployment.
-> 
-> 📩 **Request a Project Quote**: [Hire Harun on Upwork](https://www.upwork.com/freelancers/~01a7a8b58043e6e6d9) | Direct Email: `sekmenwp@gmail.com`
+[✉️ Request a Design-to-Store Quote](mailto:sekmenwp@gmail.com) · [💼 Upwork Profile](https://www.upwork.com/freelancers/~01a7a8b58043e6e6d9) · [🔗 Main GitHub Profile](https://github.com/harunsekmen)
 
 ---
 
-## ⚡ The Dilemma: Heavy Page Builders vs. Native Blocks
-
-E-commerce agencies and UI/UX designers frequently face a painful tradeoff when shipping custom Figma designs:
-1. **The Builder Trap (Elementor / Divi)**: Replicating Figma in visual builders bloats the DOM with 4,000+ nodes, generates massive CSS files, and drops mobile PageSpeed scores into the 30-45 range.
-2. **Cumulative Layout Shift (CLS)**: Unoptimized accordion scripts and slider libraries cause sudden visual jumps while loading, failing Google Core Web Vitals audits.
-3. **High Maintenance Debt**: Third-party builder updates frequently break custom CSS overrides and WooCommerce checkout templates.
-
-**FigmaToWoo** solves this by providing a clean library of conversion-tested sections built as native WordPress blocks. Each block strictly follows Figma auto-layout principles, rendering cleanly with zero runtime overhead.
-
----
-
-## 📸 Visual Previews & Operational Interface
+## 📸 Visual Previews & Block Showcase
 
 ### Modular E-Commerce Sections (Auto-Layout Matching)
-High-converting landing page blocks including comparison matrix tables, zero-CLS animated FAQ accordions, and split product heroes:
+High-converting storefront blocks including a side-by-side product comparison matrix and animated FAQ accordions:
 
 ![FigmaToWoo Block Showcase Preview](docs/assets/figma-to-woo-blocks-showcase.png)
 
 ---
 
-## 🛠️ Key Architectural Features
+## ⚡ The Problem It Solves
 
-- **15 Modular E-Commerce Blocks**: Hero split showcases, social proof marquees, comparison matrices, and FAQ accordions.
-- **Auto-Layout Token Compatibility**: Directly mirrors Figma flexbox, auto-layout gap spacing, and padding tokens.
-- **Zero-CLS Responsive Accordions**: Hardware-accelerated CSS transitions designed to prevent layout shifts.
-- **Full HPOS Compatibility**: Built with native support for WooCommerce High-Performance Order Storage (`custom_order_tables`) and Cart/Checkout Blocks.
-- **Pure Native WordPress Gutenberg**: Zero third-party page builder plugins required; 100% native block editor integration.
+When agencies and designers create high-fidelity store mockups in Figma, converting those designs into a working WooCommerce store often runs into practical issues:
+- **Heavy Page Builder Dependencies:** Replicating Figma layouts inside complex visual builders often creates deep HTML nesting, heavy script bundles, and sluggish mobile loading times.
+- **Layout Jumps & Shifts:** Poorly coded FAQ accordions, feature grids, and tab modules frequently jump or shift as assets load, frustrating mobile shoppers.
+- **Design Drift:** Spacing, padding, and font hierarchies often get lost in translation when moving from Figma's auto-layout structure to WordPress templates.
 
----
-
-## 📊 Developer & Agency Comparison
-
-| Feature / Metric | Traditional Page Builders (Elementor/Divi) | FigmaToWoo Native Blocks |
-| :--- | :--- | :--- |
-| **DOM Element Count** | 3,500 - 5,000 nodes (Bloated) | **~600 - 900 nodes (Ultra Clean)** |
-| **Mobile Core Web Vitals** | Poor (35 - 55 / 100) | **95+ / 100 Guaranteed** |
-| **Figma Auto-Layout Accuracy** | Approximate (Hackish CSS overrides) | **100% Semantic Flexbox Match** |
-| **Cumulative Layout Shift (CLS)** | 0.15 - 0.35 (Fails Google Audit) | **0.00 (Flawless Stability)** |
-| **Dependency Weight** | 800+ KB external JS/CSS | **< 15 KB Minified** |
+**FigmaToWoo** solves this by offering a curated set of native WordPress Gutenberg blocks. Each block strictly mirrors Figma auto-layout principles, rendering clean semantic HTML that loads quickly and looks sharp on all screen sizes.
 
 ---
 
-## 🏗️ Repository Structure
+## 🛠️ Key Block Components
 
-```
-figma-to-woo-blocks-system/
-├── .github/
-│   └── workflows/
-│       └── ci.yml               <-- GitHub Actions syntax and linting checks
-├── assets/
-│   ├── css/
-│   │   └── figma-blocks.css     <-- Modular tokens & responsive component styles
-│   └── js/
-│       └── figma-blocks.js      <-- Accordion & tab interaction listeners
-├── docs/
-│   └── assets/                  <-- High-resolution component & UI previews
-├── includes/
-│   ├── class-admin.php          <-- WP Admin dashboard & agency lead hook
-│   ├── class-block-registry.php <-- Gutenberg block category & schema registry
-│   └── class-block-system.php   <-- Singleton bootstrap & asset manager
-├── templates/
-│   └── admin-dashboard.php      <-- WP Admin component catalog table
-├── tests/
-│   ├── run-e2e-test.js          <-- Headless Chromium E2E verification suite
-│   └── store-simulation.html    <-- High-fidelity landing page blocks showcase
-├── composer.json                <-- PSR-4 autoload mapping
-├── LICENSE                      <-- GPL-3.0 License
-├── README.md                    <-- Technical documentation with client quote hook
-└── figma-to-woo-blocks-system.php <-- Main plugin entry point & metadata
-```
+- **Product Comparison Matrix:** Clean side-by-side spec comparison table that helps shoppers understand product differences and make confident purchasing decisions.
+- **Smooth FAQ Accordions:** Expandable question-and-answer panels that resolve buyer objections directly on product and landing pages.
+- **Figma Auto-Layout Fidelity:** Semantic flexbox and CSS grid structures that faithfully preserve design tokens, spacing, and typography.
+- **Native Block Editor Integration:** Works directly within the core WordPress Gutenberg editor without requiring third-party builder licenses.
+- **High-Performance Order Storage (HPOS) Ready:** Built to work smoothly alongside modern WooCommerce versions and checkout blocks.
 
 ---
 
-## 🧪 Automated Testing & Verification
+## 💼 Turnkey Figma-to-WooCommerce Builds
 
-The repository includes an end-to-end headless browser test suite verifying block rendering, accordion toggle interactions, and responsive card layouts:
+Have a custom Figma design for your upcoming brand or an agency client?
 
-```bash
-# Run Playwright E2E simulation suite
-node tests/run-e2e-test.js
-```
+- **Exact Visual Accuracy:** Typography scales, spacing tokens, and micro-interactions translated into clean, maintainable code.
+- **Gutenberg or Custom Theme Build:** Lightweight modular blocks tailored to your design without bloated page builder plugins.
+- **Full Commerce Setup:** Product options, payment gateways, shipping calculators, and email notification templates.
+- **Staging Preview & Review:** Review the working store on a staging server and test the shopping experience before going live.
+
+📩 **Start the conversation:** Send your Figma file link or project overview to **[sekmenwp@gmail.com](mailto:sekmenwp@gmail.com)** or reach out via **[Upwork](https://www.upwork.com/freelancers/~01a7a8b58043e6e6d9)**.
 
 ---
 
-## 🚀 Installation & Quick Start
+## 🚀 Developer Setup & Local Testing
 
-### Option 1: Git Clone
-```bash
-cd wp-content/plugins/
-git clone https://github.com/harunsekmen/figma-to-woo-blocks-system.git
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/harunsekmen/figma-to-woo-blocks-system.git wp-content/plugins/figma-to-woo-blocks-system
+   ```
 
-### Option 2: WP-CLI Activation
-```bash
-wp plugin activate figma-to-woo-blocks-system
-```
+2. **Activate the plugin:**
+   ```bash
+   wp plugin activate figma-to-woo-blocks-system
+   ```
+
+3. **Run local simulation tests:**
+   ```bash
+   node tests/run-e2e-test.js
+   ```
 
 ---
 
 ## 📄 License
 
-This project is open-source software licensed under the **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.
+This open-source project is licensed under the **[GNU General Public License v3.0](LICENSE)**.
 
